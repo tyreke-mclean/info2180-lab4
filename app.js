@@ -8,7 +8,8 @@ document.addEventListener('DOMContentLoaded', function(){
           }
           xmlhttpreq.onreadystatechange=function() { 
             if (this.readyState==3 && this.status==200) {
-              document.getElementById("result").innerHTML=this.responseText;
+              
+              alert(this.responseText);  document.getElementById("result").innerHTML=this.responseText;
         
             }
           }
